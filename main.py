@@ -17,34 +17,37 @@ while(True):
     print("7. Episodios duplicados vistos (TODOS) - Mostra Episodios/filmes que foram vistos mais de uma vez por usuario.")
     print("8. Media Tempo de um mes no ano - Mostra media de tempo gasto vendo filmes/episodios em um mes especifico de todos os anos.")
     print("9. Media Tempo (TODOS) - Mostra media de tempo TOTALIZADO de cada usuario investidos vendo Filmes/series")
+    print("0. Sair")
     
     escolha = int(input("Escolha uma opcao: "))
     
     match escolha:
         case 1:
             Frequencia.Frequencia(df)
-            break
+
         case 2:
             Titulos_xtempo(df)
-            break
+            
         case 3:
             Usuarios_viram_titulo.Usuarios_viram_titulo(df)
-            break
+            
         case 4:
             Visto_mais_usuarios.Visto_mais_usuarios(df)
-            break
+            
         case 5:
             Funcoes_fe.media_tempo_assistido_ate_xy(df)
-            break
+           
         case 6:
             Funcoes_fe.qnt_episodios_vistos_todos_sem_rep_ate_xy(df)
-            break
+           
         case 7:
             Funcoes_fe.eps_vistos_dup_todos(df)
-            break
+        
         case 8:
             Funcoes_fe.media_tempo_de_mes_de_todos_anos(df)
-            break
+       
         case 9:
             Funcoes_fe.media_todos(df)
+         
+        case 0:
             break
