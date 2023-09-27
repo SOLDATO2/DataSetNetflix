@@ -21,4 +21,4 @@ O programa permite as seguintes analises:
 
 Depedendo da opção que o usuario escolher, pode ser requisitado uma data, mes ou nome do episodio/filme para busca.
 
-Graficos do tipo "Barh" serão utilizados para mostrar as informações.
+Graficos do tipo "Barh", "Scatter" e "Bar" serão utilizados para mostrar as informações.
